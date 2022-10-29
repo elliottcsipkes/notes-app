@@ -8,9 +8,9 @@ import { useEffect } from "react";
 
 const App = () => {
   const [notes, setNotes] = useState([
-    { id: nanoid(), text: "this is my first note", date: "15/04/2022" },
-    { id: nanoid(), text: "this is my second note", date: "15/04/2022" },
-    { id: nanoid(), text: "this is my third note", date: "15/04/2022" },
+    { id: nanoid(), text: "this is my first note", date: "9/27/2022" },
+    { id: nanoid(), text: "this is my second note", date: "10/09/2022" },
+    { id: nanoid(), text: "this is my third note", date: "10/20/2022" },
   ]);
   const [searchText, setSearchText] = useState("");
   const [darkMode, setDarkMode] = useState(false);
